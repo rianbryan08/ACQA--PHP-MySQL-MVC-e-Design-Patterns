@@ -4,7 +4,6 @@
  * <b>Create.class:</b>
  * Classe responsável por cadastros genéticos no banco de dados!
  * 
-* @copyright (c) 2015, Alisson Maciel AGÊNCIA DIGITAL WEB LAB
  */
 class Create extends Conn {
 
