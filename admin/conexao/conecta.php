@@ -77,13 +77,6 @@ define('WS_INFOR', 'info');
 define('WS_ALERT', 'warning');
 define('WS_ERROR', 'danger');
 
-/** DEFINE SERVIDOR DE E-MAIL ################
-//define('MAILHOST', "ssl://smtp.gmail.com");
-//define('MAILPORT', "465");
-//define('MAILUSER', "sac.jamm@gmail.com");
-//define('MAILPASS', "!nameiswhat1504#");
-// DEFINE SERVIDOR DE E-MAIL ################*/
-
 $Config = new Read();
 $Config->ExeRead(PREFIX . "config");
 $etConfig = $Config->getResult()[0];
